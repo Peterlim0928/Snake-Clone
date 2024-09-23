@@ -1,0 +1,125 @@
+{
+  "constants": {
+    "width": 600,
+    "height": 400,
+    "cellSize": 20,
+    "snakeLength": 5,
+    "initialX": 140,
+    "initialY": 100
+  },
+  "defaultSettings": {
+    "mode": 0,
+    "map": 0,
+    "speed": 0,
+    "color": {
+      "snake": "#00ff00",
+      "snakeBorder": "#008c00",
+      "food": "#ff0000",
+      "foodBorder": "#8c0000"
+    },
+    "isBorderDeadly": true
+  },
+  "modes": [
+    {
+      "id": 1,
+      "name": "Singleplayer",
+      "description": "Score as high as possible",
+      "playable": true
+    },
+    {
+      "id": 2,
+      "name": "Player VS Player",
+      "description": "Play against a friend",
+      "playable": false
+    },
+    {
+      "id": 3,
+      "name": "Player VS AI",
+      "description": "Play against the computer",
+      "playable": false
+    }
+  ],
+  "maps": [
+    {
+      "id": 1,
+      "name": "Map 1",
+      "layout": [
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
+      ],
+      "playable": true
+    },
+    {
+      "id": 2,
+      "name": "Map 2",
+      "layout": [
+        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      ],
+      "playable": true
+    },
+    {
+      "id": 3,
+      "name": "Map 3",
+      "layout": [
+        "XXXXXXXXXXOOOOOOOOOOXXXXXXXXXX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XOOOOOOOOOOOOOOOOOOOOOOOOOOOOX",
+        "XXXXXXXXXXOOOOOOOOOOXXXXXXXXXX"
+      ],
+      "playable": true
+    }
+  ]
+}
